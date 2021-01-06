@@ -1,7 +1,9 @@
 #!usr/bin/perl -w
-# usage perl Random_sampling.pl input_file number length1 length2 >result
+# usage perl Random_sampling.pl input_file number minimum_length given_length >output_file
 # Author: Xun Chen
-# Email: Xun.Chen@uvm.edu
+# Email: xunchen85@gmail.com or chen.xun.3r@kyoto-u.ac.jp
+# Date: 2021/1/6
+
 use strict;
 my $line="";
 my @db=();
