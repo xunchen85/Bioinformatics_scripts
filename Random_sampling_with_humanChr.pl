@@ -1,10 +1,10 @@
 #!usr/bin/perl
-# usage perl Random_sampling.pl input_file number length1 length2 >result
+# usage perl Random_sampling_with_humanChr.pl input_file number_of_sequences minimum_length given_len >output_file
 # Author: Xun Chen
-# Email: xchen@outlook.com
+# Email: xunchen85@gmail.com or chen.xun.3r@kyoto-u.ac.jp
+# Date: 2021/1/6
 
 ### note: exclude "N" and other non-nucleotide characters; exclude read shorter than minimun read length;
-
 
 use strict;
 my $line="";
